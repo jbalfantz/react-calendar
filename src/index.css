@@ -1,0 +1,15 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e66053;
+  color: #4E4F4A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  min-height: 100vh;
+}

@@ -1,0 +1,80 @@
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+
+.App {
+  text-align: center;
+  background-color: #F6E9DC;
+}
+
+table {
+  margin:1em auto;
+}
+
+.calendar {
+  table-display: fixed;
+  width: 100%;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+.calendarHeader, .calendarCell {
+  border: 2px solid #e66053;
+  text-align: center;
+  vertical-align: middle;
+  &:first-child {
+    border-left: none;
+  }
+  &:last-child {
+    border-right: none;
+  }
+}
+
+.calendarHeader, .calendarCell {
+  padding: .75rem 0 1.5rem;
+}
+
+.calendarBanner {
+  text-align: center;
+  padding: .75rem;
+  h1 {
+    background-color: #4E4F4A;
+    color: #F6E9DC;
+    display: inline-block;
+    font-size: 3rem;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    padding: .5rem 2rem;
+    text-transform: uppercase;
+  }
+}
+
+.calendarHeader {
+  font-size: 1rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.calendarCell {
+  font-size: 4rem;
+  position: relative;
+}
+
+
+.calendarEventCell {
+  background-color: #4E4F4A;
+  border-color: #4E4F4A;
+  color: #F6E9DC;
+  font-size: .75rem;
+  font-weight: 400;
+  height: 1rem;
+}
+
+.cancelledCell {
+  background-color:#eeeeee;
+  color: #999999;
+}
